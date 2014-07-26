@@ -1,0 +1,14 @@
+{
+	"name": "WeatherSchmeather",
+	"description": "A service for aggregating weather reports and forecasts",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:carranca/WeatherSchmeather.git"
+	},
+	"version": "0.0.1",
+	"main": "index.js",
+	"dependencies": {
+		"hapi": "^6.0.2",
+		"nodemon": "^1.2.1"
+	}
+}
