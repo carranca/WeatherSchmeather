@@ -9,7 +9,12 @@ var routes = [
 ];
 
 var options = {
-
+    views: {
+        engines: {
+            html: require('handlebars')
+        },
+        path: 'view'
+    }
 };
 
 exports.routes = routes;
